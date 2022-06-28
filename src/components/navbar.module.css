@@ -13,6 +13,7 @@
   cursor: pointer;
   transition-duration: 300ms;
   z-index: 20;
+  font-weight: 800;
 }
 
 .navbar:hover {
@@ -23,4 +24,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
 }
