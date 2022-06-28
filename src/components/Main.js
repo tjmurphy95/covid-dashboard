@@ -3,7 +3,7 @@ import { useFetchData } from "../hooks/fetchData";
 import styles from "./cases.module.css";
 
 export default function Main(props) {
-  const { data, selected } = props;
+  const { selected, data } = props;
   const cases = data[selected].All;
   const totals = {
     confirmed: cases.confirmed,

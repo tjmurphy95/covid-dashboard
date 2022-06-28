@@ -25,3 +25,11 @@
 .bar2 {
   background: linear-gradient(to top, black, red);
 }
+
+.barLabels {
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  left: 50%;
+}
