@@ -1,5 +1,4 @@
 import React from "react";
-import { useFetchData } from "../hooks/fetchData";
 import styles from "./cases.module.css";
 
 export default function Main(props) {
