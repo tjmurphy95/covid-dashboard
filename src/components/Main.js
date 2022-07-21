@@ -46,7 +46,12 @@ export default function Main(props) {
           return (
             <div key={index} className={styles.info}>
               <p>{val.replaceAll("_", " ")}:</p>
-              <p> {cases[val]}</p>
+              <p>
+                {" "}
+                {val !== "recovered"
+                  ? cases[val]
+                  : cases["confirmed"] - cases["deaths"]}
+              </p>
             </div>
           );
         })}
